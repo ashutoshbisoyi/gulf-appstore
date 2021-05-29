@@ -24,8 +24,8 @@ const HeroComponent = () => {
           Download Now
         </button>
       </div>
-      <img src={mockup} alt='mockup image' />
-      <img src={mockup} alt='mockup image' className='left-mockup' />
+      <img src={mockup} alt='mockup' />
+      <img src={mockup} alt='mockup' className='left-mockup' />
     </Container>
   );
 };

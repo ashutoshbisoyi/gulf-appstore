@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { DropdownButton, Dropdown, Row, Col } from 'react-bootstrap';
 import AppData from '../data/AppData';
 import { AiFillStar, AiOutlineDownload, AiOutlineFund } from 'react-icons/ai';
@@ -29,10 +29,6 @@ const AppFeed = () => {
     setCategory('all');
     setType('all');
   };
-
-  useEffect(() => {
-    console.log(country, category, type);
-  }, [country, category, type]);
 
   return (
     <div className='app-feed'>

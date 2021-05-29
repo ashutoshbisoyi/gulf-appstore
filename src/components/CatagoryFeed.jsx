@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { AiOutlineGlobal } from 'react-icons/ai';
 import AppCategories from '../data/AppCategories';
 import GameCategories from '../data/GameCategories';
 
