@@ -1,0 +1,146 @@
+//---------------MEDIA QUERY----------------------------------
+
+@media (max-width: 1280px) {
+  //nav media query
+  .navigation {
+    .form-inline {
+      input {
+        width: 300px;
+      }
+    }
+  }
+  //nav media query end
+
+  //hero component media query
+  .hero-component {
+    img {
+      width: 350px;
+      bottom: -350px;
+    }
+    img.left-mockup {
+      top: -350px;
+    }
+  }
+  //hero media query end
+}
+@media (max-width: 1095px) {
+  //nav media query
+  .navigation {
+    .form-inline {
+      input {
+        width: 200px;
+      }
+    }
+  }
+  //nav media query end
+}
+@media (max-width: 992px) {
+  //hero component media query
+  .hero-component {
+    img {
+      width: 300px;
+      bottom: -350px;
+    }
+    img.left-mockup {
+      top: -350px;
+    }
+  }
+  //hero media query end
+  //category feed media query
+  .category-feed {
+    border-left: none;
+    padding-left: 0;
+    margin-bottom: 2em;
+    h3 {
+      margin: 1em 0 1em;
+    }
+  }
+}
+@media (max-width: 850px) {
+  //hero component media query
+  .hero-component {
+    padding-bottom: 200px;
+    img {
+      transform: rotate(0);
+      width: 300px;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -350px;
+    }
+    img.left-mockup {
+      display: none;
+    }
+  }
+  //hero media query end
+}
+@media (max-width: 500px) {
+  //nav media query
+  .navigation {
+    padding: 1em;
+    .navbar-nav {
+      padding: 1em 0;
+      .nav-link {
+        justify-content: start;
+      }
+    }
+    .form-inline {
+      flex-grow: 1;
+      order: 3;
+      margin-top: 1em;
+      input {
+        width: 100%;
+      }
+    }
+  }
+  //nav media query end
+
+  //hero component media query
+  .hero-component {
+    h1 {
+      font-size: 3em;
+    }
+    button {
+      width: 200px;
+      border-radius: 25px;
+    }
+  }
+  //hero component media query end
+  //feed
+  .feed {
+    padding: 3em 1em;
+  }
+  .app-feed {
+    .catagory-wrapper {
+      .categories {
+        flex-grow: 1;
+        .select {
+          width: 100%;
+        }
+      }
+    }
+    .app-bucket {
+      .row > div {
+        padding: 0.5em;
+      }
+      .app-card {
+        .image {
+          height: 130px;
+        }
+      }
+    }
+  }
+  //footer
+  footer {
+    .content {
+      padding: 0 1em;
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+          margin: 0.5em 1em;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
